@@ -25,8 +25,14 @@ public class DeptAPIController {
 	
 	@GetMapping("/test")
 	public String deptApi() {
-		return "dept api controller!";
+		return "dept api controller";
 	}
+
+	@GetMapping("/app")
+	public String appApi() {
+		return "Project changed";
+	}
+
 	
 	@GetMapping("/depts")
 	public List<Dept> getDepts() {
