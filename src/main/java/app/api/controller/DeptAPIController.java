@@ -25,7 +25,7 @@ public class DeptAPIController {
 	
 	@GetMapping("/test")
 	public String deptApi() {
-		return "dept api controller";
+		return "dept api controller!";
 	}
 	
 	@GetMapping("/depts")
